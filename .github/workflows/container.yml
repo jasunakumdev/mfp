@@ -16,6 +16,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      # Load environment variables from the .env file
+      PATH: ${{ env.PATH }}
+
     steps:
       - uses: actions/checkout@v2
       - run: npm install
