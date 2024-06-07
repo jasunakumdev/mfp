@@ -1,6 +1,6 @@
 import React from 'react'
 import MarketingApp from './components/MarketingApp'
-//new app
+//new app sample test comments for action creation
 export default () => {
   return (
     <div>
