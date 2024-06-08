@@ -9,7 +9,7 @@ import { Suspense } from 'react'
 import Progress from './components/Progress'
 
 // import MarketingApp from './components/MarketingApp'
-// import AuthApp from './components/AuthApp'
+// import AuthApp from './components/AuthApp' not require
 
 const MarketingLasy = lazy(() => import('./components/MarketingApp'))
 const AuthLazy = lazy(() => import('./components/AuthApp'))
