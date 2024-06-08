@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import Dashboard from './components/Dashboard.vue'
 
-// Mount function to start up the app
+// Mount function to start up the vue app
 const mount = (el) => {
   const app = createApp(Dashboard)
   app.mount(el)

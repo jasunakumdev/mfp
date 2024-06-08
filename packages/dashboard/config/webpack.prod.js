@@ -7,11 +7,11 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/dashbaord/latest/',
+    publicPath: '/dashboard/latest/',
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'dashbaord',
+      name: 'dashboard',
       filename: 'remoteEntry.js',
       exposes: {
         './DashboardApp': './src/bootstrap',
